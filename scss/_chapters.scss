@@ -1,0 +1,61 @@
+.row-between{
+    display: flex;
+    justify-content: space-between;
+}
+.chapterList{
+    direction: none;
+    list-style: none;
+	text-decoration: none;
+	
+	li{
+		box-shadow: 0 2px 3px rgba(57, 73, 76, 0.575);
+		border-radius: 0 3px 3px 0  ;
+		margin-top:10px;
+	}
+}
+
+
+.chapter-item{
+	display: flex;
+	justify-content: start;
+}
+
+.img-400{
+	width: 20vw;
+	height: 20vw;
+}
+
+.questionlist{
+	ul{
+		list-style: none;
+	}
+}
+
+.allchapters{
+	margin-top: 150px;
+	width: 100%;
+	padding: 10px;
+	a{ 
+		text-align: left;
+		text-decoration: none;
+		color: #37A000;
+		font-weight: bold;
+
+		.c-card{
+			margin-top: 10px;
+			margin-bottom: 10px;
+			box-shadow: 0 2px 3px rgba(57, 73, 76, 0.575);
+			padding:  5px 0  5px 10px ;
+			p{
+				font-weight: bold;
+			}
+		}
+		.c-card:hover{
+			background: #37A000;
+			transition: 0.5s;
+		}
+	}
+	a:hover{
+		color: black;
+	}
+}
